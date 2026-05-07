@@ -4,6 +4,17 @@ A learning path for an experienced web developer building macOS apps via Claude 
 
 The reference platform throughout is **macOS 26 (2026)**. iOS is mentioned only where it differs meaningfully.
 
+## How this syllabus is shaped
+
+The chapter order isn't arbitrary — two deliberate choices shaped it:
+
+1. **State comes early (chapter 3).** SwiftUI is fundamentally state-driven, and *view-as-function-of-state* is the single biggest mental shift from web development. Skip it and the rest of the course doesn't hang together. State sits before windows, layout, or controls.
+2. **Basic layout precedes atoms (chapter 5 before chapter 6).** Web instincts say "smallest units first" — but SwiftUI has no default flow like HTML; you can't render two buttons without a stack. So layout primitives come before the control toolbox; the heavier escape-hatches (`GeometryReader`, custom `Layout`, `Canvas`) are deferred to chapter 12.
+
+Otherwise the spine is what you'd expect: tooling → landscape → fundamentals → state → app skeleton → layout → atoms → containers → composition → chrome → presentation → motion → escape hatches → AppKit → design → directing AI.
+
+Per-chapter `README.md` briefs are starting frames, not contracts — each session can adapt them.
+
 ---
 
 ## Chapter 0 — Apple/Xcode primer
