@@ -1,3 +1,7 @@
+
+> [!NOTE]
+> An Experiment in structured learning with Claude Code. Might be shit, might not 🤷‍♂️
+
 # SwiftUI Learning
 
 A personal learning repo where I (an experienced web/TS/Ruby developer) work through macOS SwiftUI development with Claude Code as my teacher. The aim isn't to learn Swift — it's to build a sound mental model of macOS UI development, so I can imagine, decompose, and brief Claude Code on real apps in the right vocabulary.
