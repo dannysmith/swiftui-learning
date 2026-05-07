@@ -108,7 +108,7 @@ If you think we're at the end of a chapter, say so ("I think we're done with thi
   - `chapter-completion-summary.md` — written at chapter end per the chapter-end procedure. Absent until the chapter is closed.
   - `<session-id>/` — archived session transcript, produced by the `uvx claude-code-transcripts` command at chapter end. Contains `index.html`, paginated `page-NNN.html` files, and the original `.jsonl`.
   - Demo artefacts: `*.swift` for single-file demos, subdirectories for mini Xcode projects, `*.html` for interactive widgets (per the visual-aids guidance above), `*.png` for screenshots.
-- `teaching-scaffold-app/` — Xcode project that accretes features chapter by chapter. Created in chapter 0, mostly idle until chapter 4. Treat as pedagogy-with-continuity, not as a product to ship.
+- `teaching-scaffold-app/` — Xcode project that accretes features chapter by chapter. Pre-scaffolded with a default macOS SwiftUI template; chapter 0 tours it, then it stays mostly idle until chapter 4 when it starts accreting features. Treat as pedagogy-with-continuity, not as a product to ship. See `teaching-scaffold-app/CLAUDE.md` for current structure.
 
 ## Posture and tone
 
