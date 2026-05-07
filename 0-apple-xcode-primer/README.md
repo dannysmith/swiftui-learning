@@ -14,7 +14,7 @@ By the end of this session Danny should be able to:
 - Look at an Xcode window and name the panes
 - Explain what Previews are and why they shape how SwiftUI work feels different from "edit, compile, run"
 - Run a SwiftUI app on the Mac and know what's happening
-- Have `teaching-scaffold-app/` scaffolded and committed, so there's a real project to point at from now on
+- Have toured the pre-scaffolded `teaching-scaffold-app/`, naming each file and pane against the concepts above, so there's a real project he understands the shape of from now on
 
 This chapter is recognition vocabulary, not mastery. If a section feels like territory Danny already knows, skip it.
 
@@ -59,15 +59,17 @@ This chapter is recognition vocabulary, not mastery. If a section feels like ter
    - Entitlements as the sandbox/permissions thing (file access, network, etc.)
    - We don't dwell — just make the words not scary later
 
-8. **Scaffolding `teaching-scaffold-app/`**
-   - Create a minimal SwiftUI macOS project together
-   - Look around it, naming each piece against the concepts above
-   - This is the consolidation step
+8. **Touring `teaching-scaffold-app/`**
+   - The project is already scaffolded (default macOS SwiftUI template, no Core Data, no tests). The wizard step has been done outside the chapter to keep the lesson focused.
+   - Open it in Xcode and walk through it together: the `.xcodeproj` bundle, the source folder, `Assets.xcassets`, `TeachingScaffoldAppApp.swift`, `ContentView.swift`, and the panes/Previews.
+   - Name each piece against concepts 1–7 above. This is the consolidation step.
+   - If anything in the wizard's choices is worth flagging in retrospect (e.g. why no Core Data, why no tests), do so.
 
 ## Demos worth considering
 
-- The chapter outcome **is** the demo: scaffold `teaching-scaffold-app/` and tour it together. That's the strongest possible grounding.
-- A live Preview in action — change a `Text` label, watch it update — is a strong tactile beat. Worth doing.
+- The chapter outcome **is** the tour: walk through `teaching-scaffold-app/` together, opening files, identifying panes, naming each piece. That's the strongest possible grounding.
+- A live Preview in action — change a `Text` label in `ContentView.swift`, watch it update — is a strong tactile beat. Worth doing.
+- Running the app (Cmd+R) once so Danny sees the actual default SwiftUI window appear. Quick, satisfying, demystifying.
 - Probably no other dedicated demos. This chapter is more "look at things and name them" than "build small isolated examples."
 
 ## Out of scope (defer)
