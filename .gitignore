@@ -1,0 +1,6 @@
+.DS_Store
+*.local
+*.local.*
+*.xcodeproj
+_origin-conversation.md
+.playwright-cli/
